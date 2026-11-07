@@ -1,0 +1,8 @@
+/src/Clean System Files/
+/bin/
+/nitrile-fetch.err.log
+/nitrile-fetch.out.log
+/nitrile-update.err.log
+/nitrile-update.out.log
+/nitrile-packages/
+/nitrile-tmp/
