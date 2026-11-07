@@ -1,0 +1,26 @@
+format_version: 0.4.4
+name: clean-chat
+type: Application
+version: 0.1.0
+license: MIT
+description: A terminal chat-completions client written in Clean.
+src:
+  - src
+dependencies:
+  argenv: ^1.0.3
+  base: ^4.0.0
+  http: ^1.1.0
+  json: ^3.1.0
+  system: ^3.0.2
+  tcpip: ^2.0.0
+build:
+  app:
+    script:
+      - clm:
+          main: app
+          target: bin/clean-chat
+          generate_descriptors: false
+actions:
+  run:
+    script:
+      - .\bin\clean-chat.exe -nt -nr
