@@ -1,0 +1,6 @@
+{
+  "files.associations": {
+    "*.icl": "clean-implementation",
+    "*.dcl": "clean-definition"
+  }
+}
